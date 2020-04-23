@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bluesky-shopping.iml" filepath="$PROJECT_DIR$/.idea/bluesky-shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-common/shopping-common.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-common/shopping-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-common-db/shopping-common-db.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-common-db/shopping-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway-system/shopping-gateway-system.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway-system/shopping-gateway-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway-web/shopping-gateway-web.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-gateway/shopping-gateway-web/shopping-gateway-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-parent.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-api.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-goods/shopping-service-goods.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-goods/shopping-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-goods-api/shopping-service-goods-api.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-goods-api/shopping-service-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-search-api/shopping-service-search-api.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-search-api/shopping-service-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-system/shopping-service-system.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-system/shopping-service-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-system-api/shopping-service-system-api.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-system-api/shopping-service-system-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-user/shopping-service-user.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-user/shopping-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-user-api/shopping-service-user-api.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-service-api/shopping-service-user-api/shopping-service-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-user-oauth/shopping-user-oauth.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-user-oauth/shopping-user-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping-web/shopping-web.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping-web/shopping-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-parent/shopping_eureka/shopping_eureka.iml" filepath="$PROJECT_DIR$/shopping-parent/shopping_eureka/shopping_eureka.iml" />
+    </modules>
+  </component>
+</project>

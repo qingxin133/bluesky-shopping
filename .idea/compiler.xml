@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopping-service-system-api" />
+        <module name="shopping_eureka" />
+        <module name="shopping-service-user-api" />
+        <module name="shopping-service-search-api" />
+        <module name="shopping-service-system" />
+        <module name="shopping-service-goods" />
+        <module name="shopping-gateway-web" />
+        <module name="shopping-service-goods-api" />
+        <module name="shopping-user-oauth" />
+        <module name="shopping-common-db" />
+        <module name="shopping-gateway-system" />
+        <module name="shopping-common" />
+        <module name="shopping-service-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopping-common" target="1.8" />
+      <module name="shopping-common-db" target="1.8" />
+      <module name="shopping-gateway" target="1.8" />
+      <module name="shopping-gateway-system" target="1.8" />
+      <module name="shopping-gateway-web" target="1.8" />
+      <module name="shopping-parent" target="1.8" />
+      <module name="shopping-service" target="1.8" />
+      <module name="shopping-service-api" target="1.8" />
+      <module name="shopping-service-goods" target="1.8" />
+      <module name="shopping-service-goods-api" target="1.8" />
+      <module name="shopping-service-search-api" target="1.8" />
+      <module name="shopping-service-system" target="1.8" />
+      <module name="shopping-service-system-api" target="1.8" />
+      <module name="shopping-service-ty-api" target="1.8" />
+      <module name="shopping-service-user" target="1.8" />
+      <module name="shopping-service-user-api" target="1.8" />
+      <module name="shopping-user-oauth" target="1.8" />
+      <module name="shopping-web" target="1.8" />
+      <module name="shopping_eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shopping-common" options="-parameters" />
+      <module name="shopping-common-db" options="-parameters" />
+      <module name="shopping-gateway-system" options="-parameters" />
+      <module name="shopping-gateway-web" options="-parameters" />
+      <module name="shopping-parent" options="" />
+      <module name="shopping-service-goods" options="-parameters" />
+      <module name="shopping-service-goods-api" options="-parameters" />
+      <module name="shopping-service-search-api" options="-parameters" />
+      <module name="shopping-service-system" options="-parameters" />
+      <module name="shopping-service-system-api" options="-parameters" />
+      <module name="shopping-service-ty-api" options="-parameters" />
+      <module name="shopping-service-user" options="-parameters" />
+      <module name="shopping-service-user-api" options="-parameters" />
+      <module name="shopping-user-oauth" options="-parameters" />
+      <module name="shopping_eureka" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>shopping-parent</artifactId>
+        <groupId>com.bluesky.shopping</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>shopping-service-goods-api</module>
+        <module>shopping-service-search-api</module>
+        <module>shopping-service-user-api</module>
+        <module>shopping-service-system-api</module>
+    </modules>
+
+    <artifactId>shopping-service-api</artifactId>
+
+    <description>蓝天-购物-所有工程的JavaBean|Feign</description>
+
+    <dependencies>
+        <!--通用的common-->
+        <dependency>
+            <groupId>com.bluesky.shopping</groupId>
+            <artifactId>shopping-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--每个工程都有Pojo，都需要用到该包对应的注解-->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>

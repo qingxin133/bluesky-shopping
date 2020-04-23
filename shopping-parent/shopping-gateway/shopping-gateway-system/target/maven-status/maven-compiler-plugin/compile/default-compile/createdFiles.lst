@@ -1,0 +1,5 @@
+com\bluesky\shopping\gateway\system\GatewaySystemApplication.class
+com\bluesky\shopping\gateway\system\GatewaySystemApplication$1.class
+com\bluesky\shopping\gateway\system\filter\IpFilter.class
+com\bluesky\shopping\gateway\system\filter\AuthorizeFilter.class
+com\bluesky\shopping\gateway\system\filter\UrlFilter.class

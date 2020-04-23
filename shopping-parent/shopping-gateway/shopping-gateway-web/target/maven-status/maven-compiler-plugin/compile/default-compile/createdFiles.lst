@@ -1,0 +1,4 @@
+com\bluesky\shopping\getway\web\GatewayWebApplication.class
+com\bluesky\shopping\getway\web\filter\AuthFilter.class
+com\bluesky\shopping\getway\web\filter\UrlFilter.class
+com\bluesky\shopping\getway\web\service\AuthService.class
