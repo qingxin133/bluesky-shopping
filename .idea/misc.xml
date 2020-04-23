@@ -7,12 +7,16 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/shopping-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../study_bak/changgou/changgou_parent/changgou_gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/shopping-parent/shopping-service-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/shopping-parent/shopping-service/shopping-service-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/../study_bak/changgou/changgou_parent/changgou_gateway/changgou_gateway_system/pom.xml" />
+        <option value="$PROJECT_DIR$/../study_bak/changgou/changgou_parent/changgou_gateway/changgou_gateway_web/pom.xml" />
+        <option value="$PROJECT_DIR$/../study_bak/changgou/changgou_parent/changgou_gateway/pom.xml" />
       </set>
     </option>
   </component>

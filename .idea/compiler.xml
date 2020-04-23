@@ -6,22 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shopping-service-system-api" />
-        <module name="shopping_eureka" />
-        <module name="shopping-service-user-api" />
-        <module name="shopping-service-search-api" />
+        <module name="shopping-common" />
         <module name="shopping-service-system" />
         <module name="shopping-service-goods" />
-        <module name="shopping-gateway-web" />
-        <module name="shopping-service-goods-api" />
-        <module name="shopping-user-oauth" />
         <module name="shopping-common-db" />
         <module name="shopping-gateway-system" />
-        <module name="shopping-common" />
+        <module name="shopping-service-system-api" />
+        <module name="shopping-service-goods-api" />
         <module name="shopping-service-user" />
+        <module name="shopping-user-oauth" />
+        <module name="shopping-gateway-web" />
+        <module name="shopping_eureka" />
+        <module name="shopping-service-search-api" />
+        <module name="shopping-service-user-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="changgou_gateway" target="1.8" />
+      <module name="changgou_gateway_system" target="1.8" />
+      <module name="changgou_gateway_web" target="1.8" />
       <module name="shopping-common" target="1.8" />
       <module name="shopping-common-db" target="1.8" />
       <module name="shopping-gateway" target="1.8" />
@@ -45,6 +48,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="changgou_gateway_system" options="-parameters" />
+      <module name="changgou_gateway_web" options="-parameters" />
       <module name="shopping-common" options="-parameters" />
       <module name="shopping-common-db" options="-parameters" />
       <module name="shopping-gateway-system" options="-parameters" />
