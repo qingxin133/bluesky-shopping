@@ -37,7 +37,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
      */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        log.info("-----客户端信息认证开始UserDetailsServiceImpl的loadUserByUsername-----");
+        log.info("-----密码模式，客户端信息认证开始UserDetailsServiceImpl的loadUserByUsername-----");
         //取出身份，如果身份为空说明没有认证
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         //没有认证统一采用httpbasic认证，httpbasic中存储了client_id和client_secret，开始认证client_id和client_secret
@@ -53,6 +53,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             }
         }
         log.info("-----客户端信息认证结束 UserDetailsServiceImpl的loadUserByUsername-----");
+
         log.info("-----用户信息认证开始 UserDetailsServiceImpl的loadUserByUsername-----");
         if (StringUtils.isEmpty(username)) {
             return null;

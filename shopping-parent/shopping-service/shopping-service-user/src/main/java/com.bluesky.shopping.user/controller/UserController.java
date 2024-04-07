@@ -37,7 +37,7 @@ public class UserController {
      */
     @GetMapping({"/{username}","/load/{username}"})
     public User findUserInfo(@PathVariable("username") String username){
-        log.info("---------------根据用户名,找用户信息--------------------------------");
+        log.info("---------------根据用户名"+username+",找用户信息--------------------------------");
         User user = userService.findById(username);
         log.info("--------根据用户名,结果--------"+user.toString());
         return user;
